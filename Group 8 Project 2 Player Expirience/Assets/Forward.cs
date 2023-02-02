@@ -13,6 +13,5 @@ public class Forward : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.transform.LookAt(this.GetComponentInParent<Transform>.transform);
     }
 }

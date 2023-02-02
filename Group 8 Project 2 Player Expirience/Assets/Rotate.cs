@@ -8,8 +8,9 @@ public class Rotate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.transform.forward = target.transform.position;
+        //this.transform.forward = this.transform.rotation(0, -105, 0);
         this.transform.LookAt(target);
+        this.transform.Rotate(0, 105, 0);
     }
 
     // Update is called once per frame
